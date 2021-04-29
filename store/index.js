@@ -12,7 +12,7 @@ export const mutations = {
 
 }
 export const actions = {
-  //页面刷新自动走此方法一
+  //页面刷新自动走此方法
   nuxtServerInit ({ commit }, { req }) {
     let user = null
     if (req.headers.cookie) {
